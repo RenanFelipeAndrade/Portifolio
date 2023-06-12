@@ -10,7 +10,7 @@ export const About = () => {
     "ExpressJS",
     "ReactJS",
     "MongoDB",
-    "PostgreSQL",
+    "Django Rest Framework",
     "Tailwindcss",
     "Python",
   ];
@@ -43,7 +43,10 @@ export const About = () => {
             bring ideas to life. I strive to create user-friendly and visually
             appealing experiences that make a lasting impression. Whether
             it&apos;s crafting an intuitive interface or optimizing website
-            performance, I&apos;m always up for the challenge.
+            performance, I&apos;m always up for the challenge. Additionally, I
+            find excitement in creating backends, validating and manipulating
+            data, and building logical systems to ensure seamless functionality
+            and enhance user satisfaction.
           </p>
 
           <p>
@@ -59,7 +62,9 @@ export const About = () => {
             and together we can create something special.
           </p>
 
-          <p>Here are a few technologies I have been working with recently:</p>
+          <p>
+            Here are a few technologies I have been developing with recently:
+          </p>
           <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
             {technologies.map((techName, index) => (
               <li key={index} className="flex items-center gap-2">
@@ -182,8 +187,8 @@ export const About = () => {
                 className="rounded-lg"
                 width={iconSize.width}
                 height={iconSize.height}
-                src={"postgresql.svg"}
-                alt="postgresql icon"
+                src={"django.svg"}
+                alt="django icon"
               />
               <div className="hidden lgl:inline-block absolute w-full h-full bg-textGreen/20 rounded-md top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
