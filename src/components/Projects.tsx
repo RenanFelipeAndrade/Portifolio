@@ -14,7 +14,7 @@ interface ProjectInfo {
 export const Projects = () => {
   const projectInfoList: ProjectInfo[] = [
     {
-      title: "Next Level Week",
+      title: "Full stack app",
       description:
         "The project combined Twitch&apos;s API with ExpressJs and NextJs for a responsive SPA. Users can create and view gaming ads using Discord for login. The server, built with Expressjs, offers data fetching and ad creation endpoints. TypeScript ensures code safety.",
       skills: [
